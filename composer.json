@@ -1,11 +1,11 @@
 {
-  "name": "andersundsehr/aus-driver-amazon-s3",
+  "name": "ujam-tgoellner/aus_driver_amazon_s3",
   "type": "typo3-cms-extension",
-  "description": "Provides a FAL driver for the Amazon Web Service AWS S3.",
+  "description": "Provides a FAL driver for the Amazon Web Service AWS S3. (FORK from https://github.com/andersundsehr/aus_driver_amazon_s3)",
   "support": {
-    "source": "https://github.com/andersundsehr/aus_driver_amazon_s3.git",
-    "issues": "https://github.com/andersundsehr/aus_driver_amazon_s3/issues",
-    "docs": "https://docs.typo3.org/p/andersundsehr/aus-driver-amazon-s3/master/en-us/"
+    "source": "https://github.com/ujam-tgoellner/aus_driver_amazon_s3.git",
+    "issues": "https://github.com/ujam-tgoellner/aus_driver_amazon_s3/issues",
+    "docs": "https://docs.typo3.org/p/ujam-tgoellner/aus-driver-amazon-s3/master/en-us/"
   },
   "license": "LGPL-3.0-or-later",
   "require": {
