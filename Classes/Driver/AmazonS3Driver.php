@@ -169,6 +169,7 @@ class AmazonS3Driver extends AbstractHierarchicalFilesystemDriver
      */
     public function __construct(array $configuration = [], $s3Client = null)
     {
+        $configuration = array_replace_recursive($GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['aus_driver_amazon_s3'], $configuration);
         parent::__construct($configuration);
         // The capabilities default of this driver. See CAPABILITY_* constants for possible values
         $this->capabilities =
